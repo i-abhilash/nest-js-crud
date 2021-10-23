@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "pg-teams-invygo-2ba4.aivencloud.com",
+  "port": 22905,
+  "username": "avnadmin",
+  "password": "bcTHYb6tsaAtf8In",
+  "database": "defaultdb",
+  "ssl": true,
+  "extra": {
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  },
+  "entities": ["dist/**/*.entity.js"],
+  "synchronize": true,
+  "logging": true
+}
